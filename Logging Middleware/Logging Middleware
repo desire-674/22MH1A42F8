@@ -1,1 +1,3 @@
-hi
+to use this logging middleware 
+
+import { loggingMiddleware, Log } from '/Logging Middleware/logging.ts';
