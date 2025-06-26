@@ -34,5 +34,5 @@ export function loggingMiddleware(req: Request, res: Response, next: NextFunctio
 
   Log(stack, level, pkg, message)
     .then(() => next())
-    .catch(() => next()); // Continue flow even if logging fails
+    .catch(() => next());
 }
