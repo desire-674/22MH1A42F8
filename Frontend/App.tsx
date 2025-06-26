@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Log } from './logger';
+import { Log } from 'Logging Middleware/logging';
 
 const SHORT_DOMAIN = 'http://short.url/';
 
