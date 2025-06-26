@@ -1,5 +1,3 @@
-
-// pages/Stats.js
 import React, { useEffect, useState } from "react";
 import { Typography, Paper, List, ListItem, ListItemText, Divider } from "@mui/material";
 import LoggingService from "./logging";
